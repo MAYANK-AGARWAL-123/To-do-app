@@ -2,7 +2,6 @@ const router = require('express').Router();
 const TodoList = require('../app/Model/todoModel')
 
 
-
 // Create a new index page task
 router.post('/tasks', async (req, res) => {
     try {
